@@ -30,7 +30,7 @@ function drawRandomCircle() {
 function fillCanvas() {
   context.beginPath();
   context.rect(0, 0, 300, 150);
-  context.fillStyle = "rgba(255, 73, 15, 0.08)";
+  context.fillStyle = "rgba(255, 73, 15, 0.05)";
   context.fill();
 }
 
