@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+html, body {
+	height: 100%;
+  margin: 0;
+  z-index: 0;
+  background: #1C1C1C;
+}
+
+.desc {
+  background: none;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  margin: 12vw 9vw;
+  font-size: 2.6vw;
+  text-align: center;
+  color: white;
+  font-family: 'EB Garamond', serif;
+}
+
+canvas {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 3;
+  filter: blur(30px);
+}
