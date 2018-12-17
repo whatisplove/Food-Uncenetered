@@ -30,7 +30,7 @@ function drawRandomCircle() {
 function fillCanvas() {
   context.beginPath();
   context.rect(0, 0, 300, 150);
-  context.fillStyle = "rgba(227, 54, 8, 0.05)";
+  context.fillStyle = "rgba(255, 73, 15, 0.12)";
   context.fill();
 }
 
@@ -41,7 +41,7 @@ function myTimer() {
 $(".blur, .desc, #canvas").click(function() {
     if (firstClick == false) {
       firstClick = true;
-      var myVar = setInterval(myTimer, 200);
+      var myVar = setInterval(myTimer, 370);
     }
     $(".blur").show();
     fillCanvas();
