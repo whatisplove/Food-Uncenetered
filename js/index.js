@@ -16,7 +16,7 @@ function randomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-var colours = ['#009A0F', '#FF5F00', '#FF3757', '#FFF1E7', '#C03500', '#6FC200'];
+var colours = ['#07C673', '#031962', '#EF0859', '#FFF1E7', '#F8B81E', '#92ff00'];
 
 function drawRandomCircle() {
     colourId = randomInt(0, colours.length);
@@ -30,7 +30,7 @@ function drawRandomCircle() {
 function fillCanvas() {
   context.beginPath();
   context.rect(0, 0, 300, 150);
-  context.fillStyle = "rgba(255, 73, 15, 0.12)";
+  context.fillStyle = "rgba(255, 73, 15, 0.08)";
   context.fill();
 }
 
