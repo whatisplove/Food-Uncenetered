@@ -1,5 +1,5 @@
 var canvas = document.getElementById('canvas');
-var context = canvas.getContext('2d'); 
+var context = canvas.getContext('2d');
 var firstClick = false;
 // context.clearRect(0, 0, canvas.width, canvas.height);
 
@@ -16,7 +16,7 @@ function randomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-var colours = ['#009A0F', '#FF5F00', '#FF3757', '#FFF1E7', '#C03500', '6FC200'];
+var colours = ['#009A0F', '#FF5F00', '#FF3757', '#FFF1E7', '#C03500', '#6FC200'];
 
 function drawRandomCircle() {
     colourId = randomInt(0, colours.length);
@@ -49,7 +49,7 @@ $(".blur, .desc, #canvas").click(function() {
 });
 
 // $(function() {
-//     var timer = null, 
+//     var timer = null,
 //         interval = 1000,
 //         value = 0;
 
@@ -57,5 +57,5 @@ $(".blur, .desc, #canvas").click(function() {
 //       if (timer !== null) return;
 //       timer = setInterval(function () {
 //           $("#input").val(++value);
-//       }, interval); 
+//       }, interval);
 //     });
