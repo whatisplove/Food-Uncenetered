@@ -1,14 +1,7 @@
 var canvas = document.getElementById('canvas');
 var context = canvas.getContext('2d');
 var firstClick = false;
-
-window.addEventListener('resize', SetCanvasSize);
-window.addEventListener('load', SetCanvasSize);
-
-function SetCanvasSize(event) {
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-}
+// context.clearRect(0, 0, canvas.width, canvas.height);
 
 function circle(x, y, radius, fillstyle) {
       context.beginPath();
